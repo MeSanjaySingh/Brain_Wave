@@ -23,13 +23,7 @@ cloudinary.v2.config({
       console.log(error);
     }
   });
-  const temp=async()=>{
-    await Stats.create({});
-
-
-  }
-  temp();
-
+  
 app.listen(process.env.PORT,()=>{
 console.log (`server is working on port :${process.env.PORT}`);
 });
